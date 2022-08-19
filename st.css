@@ -1,12 +1,24 @@
 *{
   margin: 0px;
-  padding: 0px;
+  padding: 1px;
   box-sizing: border-box;
   border: 1px solid red;
 }
 
 .cont{
-  width: 60%;
-  margin: auto;
-  
+  max-width: 60%;
+  margin: 100px auto;
+}
+
+.subCont2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subCont2Box{
+  flex-grow: 1;
+  padding: 40px;
+  text-align: left;
+
 }
