@@ -50,7 +50,7 @@ body{
 
 .subCont2{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   border-radius: 0px 0px 20px 20px;
 }
@@ -118,7 +118,7 @@ body{
   margin-bottom: 6px;
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 810px){
   .cont{
     max-width: 80%;
     min-width: 300px;
@@ -131,6 +131,7 @@ body{
   }
 
   .subCont2{
+    flex-wrap: wrap;
     border-radius: 0px 0px 5px 5px;
   }
 
